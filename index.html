@@ -1,0 +1,111 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/8908ea6adb.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://cdn.wallpapersafari.com/96/38/0i197o.png" type="image/icon type">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Buddha</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">Buddha</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li class="about">Contact</li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero-section" id="home">
+
+            <div class="icons">
+                <a href = "https://www.linkedin.com/in/buddha-lama-50366b25a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href = "https://github.com/Buddha0" target="_blank"><i class="fa-brands fa-github "></i></a>
+            </div>
+
+            <div class="hero-contents">
+                <p>Buddha Lama</p>
+                <h1>A Front End Developer</h1>
+                <p> Hello there! I am a 19 years old front-end-developer and I am
+                    very passionate and dedicated on building user friendly
+                    websties.</p>
+
+              
+            </div>
+        </section>
+
+        <div class="form-section">
+
+            <form action="https://formspree.io/f/mzblbggv" method="POST" id="myForm">
+                <i class="fa-solid fa-xmark" onclick="closeModal()"></i>
+                <img src="https://sushirainbow.files.wordpress.com/2020/11/wp-1605470582609.gif" class="gif">
+                <p class>Hey there! Want to Message Me?</p>
+                <div class="form-padding">
+                    <div class="input-div">
+                        <input type="text" placeholder="Your Name" name="name" autocomplete="off" required>
+                    </div>
+                    <div class="input-div">
+                        <input type="email" name="email" placeholder="Your Email" autocomplete="off" required>
+                    </div>
+                    <textarea placeholder="Write a message..." name="message" autocomplete="off" required></textarea>
+                </div>
+
+                <div class="btn-div">
+                    <button class="btn btn-send" type="submit" id="submit_btn">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <section class="skills-section" id="skills">
+        <h1 class="skills-section-title">My Skills</h1>
+        <div class="skills">
+            <div class="skill">
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-js"></i>
+                <p>JS</p>
+            </div>
+            <div class="skill">
+                <i class="fa-brands fa-react"></i>
+                <p>REACT</p>
+            </div>
+    
+        </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+        <h1 class="projects-section-title">My Projects</h1>
+        <div class="column"></div>
+    </section>
+
+
+    <footer>
+        <h1 class="logo">Buddha</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li class="about"><a href="#">Contact</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+
+    </footer>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
