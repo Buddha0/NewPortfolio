@@ -125,6 +125,7 @@ nav a {
 .skills{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .skill{
@@ -397,6 +398,10 @@ footer a {
   color: rgb(255, 255, 255);
 }
 
+.next{
+  width:100px;
+  height:100px;
+}
 
 @media(max-width:1000px){
   .cards{

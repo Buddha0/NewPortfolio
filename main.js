@@ -22,17 +22,30 @@ const projects = [
         It have add to cart functunality and price functionality. It also have dynamic stars for the
         ratings. You can sort the items by price or ratings and u can also search for the items. Implemented skeleton loading when images are not loaded.`,
     githubLink: "https://github.com/Buddha0/Ecommerce-",
-    websiteLink: "https://ecommerce-2h5o.vercel.app/",
+    websiteLink: "https://animeshopy.netlify.app/",
     websiteImage:
-      "./images/product.png",
+      "./images/screencapture-localhost-5174-2023-06-30-23_00_20.png",
   },
-
+  {
+    title: "Carbon Tracker",
+    description: `A hacakathon project to reduce the impact of Carbon on the environment. Made With <span>HTML,</span> <span>JavaScript</span> , <span>CSS</span> and <span>React</span>`,
+    githubLink: "https://github.com/Buddha0/CarbonEmission",
+    websiteLink: "https://thunderous-cannoli-eaf462.netlify.app/",
+    websiteImage: "./images/carbon.png",
+  },
   {
     title: "Movie Website",
-    description: `A movie app made with <span>React</span> using the TMDb API where you can watch the movie trailers, select your genres and search for the movies. It have carousel scrooling as well as pagination. All the movies have dynamic routing and have skeleton loading when the images are not loaded.`,
+    description: `A movie app made with <span>React</span> using the TMDb API where you can watch the movie trailers, select your genres and search for the movies. It have carousel scrooling. All the movies have dynamic routing and have skeleton loading when the images are not loaded.`,
     githubLink: "https://github.com/Buddha0/Movie-App",
-    websiteLink: "https://moviechillpill.netlify.app/",
-    websiteImage: "./images/movie_screenshotNew.png",
+    websiteLink: "https://321movies.netlify.app/",
+    websiteImage: "./images/movie_screenshot.png",
+  },
+  {
+    title: "Twitter Clone",
+    description: `Twitter clone made with <span>Next Js,</span> and <span>Firebase,</span>`,
+    githubLink: "https://github.com/Buddha0/twitterClone",
+    websiteLink: "https://twitter-clone-rtge.vercel.app/",
+    websiteImage: "./images/twitter.png",
   },
   {
     title: "SVG_LandingPage",
@@ -48,8 +61,9 @@ const projects = [
     websiteLink: "https://looppstudio.netlify.app/",
     websiteImage: "./images/loopstudio.png",
   },
+ 
+  
 ];
-
 const projectsContainer = document.querySelector(".column");
 
 
